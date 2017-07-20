@@ -1,0 +1,117 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family:"Raleway", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #232;
+}
+
+.paragraphImage{
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.paragraphImage1{
+    background-image:url('../images/firstStep.jpg');
+    height: 100%;
+}
+
+.paragraphImage2{
+    background-image:url('../images/ArmstrongTwo.jpg');
+    height: 60%;
+}
+
+.paragraphImage3{
+    background-image:url('../images/purdue.jpg');
+    height: 60%;
+}
+
+.paragraphImage4{
+    background-image:url('../images/wright.jpg');
+    height: 60%;
+}
+
+.paragraphImage5{
+    background-image:url('../images/starfighter.jpg');
+    height: 60%;
+}
+
+.paragraphImage6{
+    background-image:url('../images/x-20.jpg');
+    height: 60%;
+}
+
+.paragraphImage7{
+    background-image:url('../images/gemini8.jpg');
+    height: 60%;
+}
+
+.paragraphImage8{
+    background-image:url('../images/spaceOne.jpg');
+    height: 60%;
+}
+
+.paragraphImage9{
+    background-image:url('../images/armstrongThree.jpg');
+    height: 60%;
+}
+
+.paragraphImage10{
+    background-image:url('../images/funeral.jpg');
+    height: 60%;
+}
+
+.paragraphImage11{
+    background-image:url('../images/memorial.jpg');
+    height: 60%;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+    font-size: 2em;
+    line-height: 2em;
+}
+
+.sectionLight {
+    background-color: #f2f2f2;
+    color: #232;
+
+}
+
+.sectionDark {
+    background-color: #353535;
+    color: #ededed;
+    
+}
+
+.paragraphText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    height: 100%;
+}
+
+.border{
+    background-color: white;
+    color: #111;
+    padding: 40px;
+    width: 40%;
+}
+
+@media(max-width: 568px){
+    .paragraphImage1, .paragraphImage2, .paragraphImage3{
+        background-attachment: scroll;
+    }
+}
